@@ -13,12 +13,12 @@ def index(request):
     # myin = myinfo()
 
     return render(request, 'index.html', {
-        'info': myin, 
-        'education': eduList, 
-        'experience': expList, 
-        'awards':awardsList,
-        'services':servicesList,
-        })
+        'info': myin,
+        'education': eduList,
+        'experience': expList,
+        'awards': awardsList,
+        'services': servicesList,
+    })
 
 
 def test(request):
